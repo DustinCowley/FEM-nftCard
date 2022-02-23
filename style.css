@@ -1,0 +1,21 @@
+:root {
+  --primary-clr: hsl(215, 51%, 70%);
+  --secondary-clr: hsl(178, 100%, 50%);
+
+  --neutral-dk: hsl(217, 54%, 11%);
+  --neutral-med: hsl(216, 50%, 16%);
+  --neutral-lt: hsl(215, 32%, 27%);
+}
+
+body {
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
