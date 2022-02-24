@@ -5,11 +5,35 @@
   --neutral-dk: hsl(217, 54%, 11%);
   --neutral-med: hsl(216, 50%, 16%);
   --neutral-lt: hsl(215, 32%, 27%);
+
+  --ff: "Outfit", san-serif;
+
+  --fw-lt: 300;
+  --fw-reg: 400;
+  --fw-sb: 600;
 }
 
 body {
   margin: 0;
   font-size: 18px;
+  font-family: var(--ff);
+  background-color: var(--neutral-dk);
+  color: white;
+}
+
+.card{
+  background-color: var(--neutral-med);
+  width: 300px;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__img-main {
+  width: 100%;
 }
 
 .attribution {
