@@ -15,16 +15,24 @@
 
 body {
   margin: 0;
+  height: 100vh;
   font-size: 18px;
   font-family: var(--ff);
   background-color: var(--neutral-dk);
   color: white;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .card{
   background-color: var(--neutral-med);
   width: 300px;
-  margin: 0 auto;
+  margin-top: auto;
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -34,6 +42,27 @@ body {
 
 .card__img-main {
   width: 100%;
+}
+
+.card__content-crypto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__creator{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__creator-img{
+  min-width: auto;
+  height: 2.5em;
+  border: 1.5px solid white;
+  border-radius: 50%;
+}
+
+footer {
+  margin-top: auto;
 }
 
 .attribution {
